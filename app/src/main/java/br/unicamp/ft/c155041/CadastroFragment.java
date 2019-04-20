@@ -21,7 +21,7 @@ public class CadastroFragment extends Fragment {
     }
 
  /** @// TODO: 20/04/19
- * Criar função OnClick do botão, para salvar as informações
+ * Criar função OnClick do botão, para salvar as informações da instância quando clicado
  * */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

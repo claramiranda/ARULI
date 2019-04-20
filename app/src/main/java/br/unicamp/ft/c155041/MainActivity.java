@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity
         fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
+        WelcomeFragment wf = new WelcomeFragment();
+        replaceFragment(wf,"welcome");
+
     }
 
     @Override
@@ -91,11 +94,13 @@ public class MainActivity extends AppCompatActivity
 
         CadastroFragment cd = new CadastroFragment();
 
+        WelcomeFragment wf = new WelcomeFragment();
+
         if (id == R.id.nav_home) {
-            // Handle the camera action
-            replaceFragment(cd,"cadastro");
+            replaceFragment(wf,"welcome");
 
         } else if (id == R.id.nav_gallery) {
+            replaceFragment(cd,"cadastro");
 
         } else if (id == R.id.nav_slideshow) {
 
