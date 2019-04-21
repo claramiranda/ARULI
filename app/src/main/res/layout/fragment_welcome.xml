@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".WelcomeFragment">
 
-    <!-- TODO: Tela inicial do app, logo da aruli, título e nome do grupo-->
+    <!-- TODO: consertar espaçamento e alinhar no centro-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

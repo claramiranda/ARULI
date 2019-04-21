@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity
             replaceFragment(cd,"cadastro");
 
         } else if (id == R.id.nav_slideshow) {
+            /**TODO:
+             * Aqui deve ficar o list view com a relação de todas as reps
+             * */
 
         } else if (id == R.id.nav_tools) {
 

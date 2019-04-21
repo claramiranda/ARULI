@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".CadastroFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Arrumar layout, deve ocupar toda a tela -->
 
         <LinearLayout
             android:orientation="vertical"

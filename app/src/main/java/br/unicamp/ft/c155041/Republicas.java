@@ -1,3 +1,5 @@
+package br.unicamp.ft.c155041;
+
 public class Republicas {
     private String nome;
     private int level_agitação;
@@ -7,12 +9,12 @@ public class Republicas {
 
     /**
      * TODO Criar list view pra exibir as infos das reps
-     * @param nome
-     * @param level_agitação
-     * @param bio
+     * @param nome - nome da república
+     * @param level_agitação - de 1 a 5 bananas, o nível de zoeira da rep
+     * @param bio - pequena descrição
      * @param vagas_temporarias
      * @param vagas_permanetes
-     * @param foto
+     * @param foto - logo da rep (usar por enquanto o banner da aruli)
      */
 
 
