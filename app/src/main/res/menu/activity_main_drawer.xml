@@ -3,26 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <!--TODO Remover sessões não utilizadas do nav. drawer e -->
+    <!-- Icons made by www.freepik.com / from www.flaticon.com / licensed by http://creativecommons.org/licenses/by/3.0  -->
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/monkey"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/cadastro"
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/house"
             android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
     </group>
-
+<!--
     <item android:title="Communicate">
         <menu>
             <item
@@ -35,5 +31,5 @@
                 android:title="@string/menu_send" />
         </menu>
     </item>
-
+-->
 </menu>

@@ -1,4 +1,4 @@
-package br.unicamp.ft.c155041;
+package br.unicamp.ft.c155041_g157918;
 
 
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import br.unicamp.ft.c155041_g157918.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,7 +23,7 @@ public class Republicas_Fragment extends Fragment {
 
     private RecyclerView mRecyclerView;
     private View lview;
-    private MyFirstAdapter mAdapter;
+    //private MyFirstAdapter mAdapter;
 
 
     public Republicas_Fragment() {

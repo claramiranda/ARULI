@@ -1,4 +1,4 @@
-package br.unicamp.ft.c155041;
+package br.unicamp.ft.c155041_g157918;
 
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import br.unicamp.ft.c155041_g157918.R;
 
 public class MyFirstAdapter extends RecyclerView.Adapter {
 
