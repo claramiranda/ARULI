@@ -105,6 +105,8 @@ public class MainActivity extends AppCompatActivity
 
         WelcomeFragment wf = new WelcomeFragment();
 
+        ListarepsFragment lr = new ListarepsFragment();
+
         if (id == R.id.nav_home) {
             replaceFragment(wf,"welcome");
 
@@ -112,9 +114,7 @@ public class MainActivity extends AppCompatActivity
             replaceFragment(cd,"cadastro");
 
         } else if (id == R.id.nav_slideshow) {
-            /**TODO:
-             * Aqui deve ficar o list view com a relação de todas as reps
-             * */
+            replaceFragment(lr,"listareps");
 
         } else if (id == R.id.nav_tools) {
 

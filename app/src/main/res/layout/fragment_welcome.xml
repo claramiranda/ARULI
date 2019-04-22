@@ -30,7 +30,7 @@
             android:id="@+id/btcadastrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cadastre-se agoraaa!"
+            android:text="Cadastre-se agora!"
             android:textAlignment="center"
             android:layout_gravity="center"
             />

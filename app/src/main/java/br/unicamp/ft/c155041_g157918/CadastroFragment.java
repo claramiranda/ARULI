@@ -1,6 +1,5 @@
 package br.unicamp.ft.c155041_g157918;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,7 +13,6 @@ import android.widget.Spinner;
  * A simple {@link Fragment} subclass.
  */
 public class CadastroFragment extends Fragment {
-
 
     public CadastroFragment() {
         // Required empty public constructor
