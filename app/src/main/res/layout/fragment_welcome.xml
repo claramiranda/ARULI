@@ -4,8 +4,6 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     tools:context=".WelcomeFragment">
- <!-- xermano ta testando -->
-    <!-- TODO: consertar espaçamento e alinhar no centro-->
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,7 +26,6 @@
              android:adjustViewBounds="true"
          />
 
-        <!--TODO função onClick jogando pro fragment de cadastro-->
         <Button
             android:id="@+id/btcadastrar"
             android:layout_width="wrap_content"
