@@ -16,6 +16,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /* Comentando fragmento com ação do antigo botão flutuante que foi removido/comentado */
+        /* Comentando trecho com ação do antigo botão flutuante que foi removido/comentado */
 
         /*
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
         */
+
+
 
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
