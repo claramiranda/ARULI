@@ -22,7 +22,7 @@
          <ImageView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:src="@drawable/gorila2"
+              android:src="@drawable/gorila1"
          />
 
         <!--TODO função onClick jogando pro fragment de cadastro-->
