@@ -1,4 +1,4 @@
-package br.unicamp.ft.c155041;
+package br.unicamp.ft.c155041_g157918;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -12,16 +12,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nome:"
-                android:layout_weight="0"/>
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/nomeBixo"
-                android:hint="Qual é o nome que está no seu RA?"/>
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome:"
+                    android:layout_weight="0"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nomeBixo"
+                    android:hint="Qual é o nome que está no seu RA?"/>
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -31,6 +42,11 @@
                 android:layout_height="wrap_content"
                 android:hint="Como você gosta que te chamem?"
                 android:id="@+id/apelidoBixo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,11 +58,11 @@
                 android:id="@+id/spinner_cursos"
                 >
             </Spinner>
-
+    </LinearLayout>
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="0">
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -60,14 +76,20 @@
                     />
             </RadioGroup>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="fill_vertical"
+                android:layout_gravity="bottom">
+
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Cadastrar"
-                android:layout_weight="0"
+                android:text="Cadastrarrr"
+                android:layout_gravity="bottom"
                 />
-
+            </LinearLayout>
         </LinearLayout>
 
 </FrameLayout>
