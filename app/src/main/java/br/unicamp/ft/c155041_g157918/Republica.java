@@ -7,6 +7,13 @@ public class Republica {
     private int vagas_temporarias;
     private int foto;
 
+    public Republica(String nome, int level_agitação, String bio, int foto) {
+        this.nome = nome;
+        this.level_agitação = level_agitação;
+        this.bio = bio;
+        this.foto = foto;
+    }
+
     /**
      * TODO Criar list view pra exibir as infos das reps
      * @param nome - nome da república
@@ -16,8 +23,6 @@ public class Republica {
      * @param vagas_permanetes
      * @param foto - logo da rep (usar por enquanto o banner da aruli)
      */
-
-    //Vetor Republicas
 
 
     //Constructor
@@ -30,13 +35,21 @@ public class Republica {
         this.foto = foto;
     }
 
-    public Republica(String nome, int level_agitação, String bio) {
+    public Republica(String nome, String bio, int foto) {
         this.nome = nome;
-        this.level_agitação = level_agitação;
         this.bio = bio;
+        this.foto = foto;
     }
 
     //Getters and Setters
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
+    }
+
     public String getNome() {
         return nome;
     }

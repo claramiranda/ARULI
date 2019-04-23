@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListarepsFragment">
+    tools:context=".ListarepsFragment"
+    android:paddingBottom="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,7 +14,14 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-<!--asdas-->
-    </ListView>
+
+    </ListView> 
+          -->
+    
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rView">
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
