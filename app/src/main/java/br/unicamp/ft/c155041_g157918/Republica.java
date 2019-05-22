@@ -40,6 +40,13 @@ public class Republica {
         this.bio = bio;
         this.foto = foto;
     }
+    public Republica(String nome, String bio, int foto, int lvl) {
+        this.nome = nome;
+        this.bio = bio;
+        this.foto = foto;
+        this.level_agitação = lvl;
+    }
+
 
     //Getters and Setters
     public int getFoto() {

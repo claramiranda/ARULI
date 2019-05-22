@@ -6,12 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 
-import br.unicamp.ft.c155041_g157918.R;
-import br.unicamp.ft.c155041_g157918.Republica;
 
 public class myFirstAdapter extends RecyclerView.Adapter {
     private ArrayList<Republica> reps;
@@ -44,12 +42,14 @@ public class myFirstAdapter extends RecyclerView.Adapter {
         private ImageView imageView;
         private TextView txtNome;
         private TextView txtBio;
+        private RatingBar level;
 
         public MyFirstViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.imgView);
-            txtNome = itemView.findViewById(R.id.txtNome);
-            txtBio = itemView.findViewById(R.id.txtBio);
+            txtNome = itemView.findViewById(R.id.txtRepNome);
+            txtBio = itemView.findViewById(R.id.txtRepBio);
+
 
         }
 

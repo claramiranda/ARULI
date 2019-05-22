@@ -23,6 +23,10 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/* TODO
+*
+* */
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -39,7 +43,6 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         /* Comentando trecho com ação do antigo botão flutuante que foi removido/comentado */
-
         /*
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +53,6 @@ public class MainActivity extends AppCompatActivity
             }
         });
         */
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -119,8 +121,11 @@ public class MainActivity extends AppCompatActivity
 
         ListarepsFragment lr = new ListarepsFragment();
 
+        PerfilFragment perfilFragment = new PerfilFragment();
+
         if (id == R.id.nav_home) {
-            replaceFragment(wf,"welcome");
+            //replaceFragment(wf,"welcome");
+            replaceFragment(perfilFragment,"perfil");
 
         } else if (id == R.id.nav_gallery) {
             replaceFragment(cd,"cadastro");
